@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Month} from './month';
+import { PersonDetails } from './person';
+import Hotel from './hotel';
+import { Timer } from './useEffect/timer';
+import { SetTimer } from './useEffect/setTime';
+import { Counter } from './useEffect/timecalculation';
+import { Time } from './useEffect/counter';
+import { Todos } from './useReducer/todo';
+// import { App } from './useRef/app';
+import { Component1 } from './usecontext/user';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Component1/>
+
   </React.StrictMode>
 );
 
