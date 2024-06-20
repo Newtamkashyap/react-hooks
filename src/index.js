@@ -13,12 +13,13 @@ import { Time } from './useEffect/counter';
 import { Todos } from './useReducer/todo';
 // import { App } from './useRef/app';
 import { Component1 } from './usecontext/user';
-
+import { Home } from './customhooks/hoom';
+import {  Apps } from './usesState/app';
+import { EvenOdd } from './usesState/even_odd';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Component1/>
-
+    <EvenOdd/>
   </React.StrictMode>
 );
 
