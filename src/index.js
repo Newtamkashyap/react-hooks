@@ -16,10 +16,11 @@ import { Component1 } from './usecontext/user';
 import { Home } from './customhooks/hoom';
 import {  Apps } from './usesState/app';
 import { EvenOdd } from './usesState/even_odd';
+import { CheckingNumber } from './usesState/numbers';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <EvenOdd/>
+    <CheckingNumber/>
   </React.StrictMode>
 );
 
