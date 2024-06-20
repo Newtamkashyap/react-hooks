@@ -17,10 +17,11 @@ import { Home } from './customhooks/hoom';
 import {  Apps } from './usesState/app';
 import { EvenOdd } from './usesState/even_odd';
 import { CheckingNumber } from './usesState/numbers';
+import HookCounterOne from './useEffect/numberCounting';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CheckingNumber/>
+    <HookCounterOne/>
   </React.StrictMode>
 );
 

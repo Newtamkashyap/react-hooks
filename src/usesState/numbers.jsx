@@ -6,7 +6,7 @@ export function CheckingNumber() {
 
     const addNumber = () => {
         setClick([
-            ...click,
+            ...click,//this will update the number again and gain in new row
             {
                 id: click.length,
                 value: Math.floor(Math.random() * 10)
@@ -17,9 +17,7 @@ export function CheckingNumber() {
     return (
         <div>
             <ul>
-                {click.map(item => (
-                    <li key={item.id}>{item.value}</li>
-                ))}
+                {click.map(item => (<li key={item.id}>{item.value}</li>))}
             </ul>
             <button onClick={addNumber}>
                 Click me
