@@ -18,10 +18,11 @@ import {  Apps } from './usesState/app';
 import { EvenOdd } from './usesState/even_odd';
 import { CheckingNumber } from './usesState/numbers';
 import HookCounterOne from './useEffect/numberCounting';
+import { Application } from './useMemo/user';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HookCounterOne/>
+    <Application/>
   </React.StrictMode>
 );
 
